@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { Modulo1Module } from './modulo1/modulo1.module';
 import { ModuloTemplateModule } from './modulo-template/modulo-template.module';
+import { ModuloTemplateDetalheModule } from './modulo-template-detalhe/modulo-template-detalhe.module';
 
 @NgModule({
   imports:      [ 
     BrowserModule, 
     FormsModule, 
     Modulo1Module,
-    ModuloTemplateModule ],
+    ModuloTemplateModule,
+    ModuloTemplateDetalheModule ],
   declarations: [ AppComponent, HelloComponent ],
   bootstrap:    [ AppComponent ]
 })
